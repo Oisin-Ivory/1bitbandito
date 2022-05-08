@@ -19,6 +19,9 @@ All inputs work off tapping the keys.
 ##### Optimisations
 The game features a very flexible entity component system alongside a very simplistic AI. It makes use of object pooling to offer optimal performance instead of constantly creating and destroying objects. It makes use of a texture manager to handle sprites, using the texture manager allows for objects to share pointers to a single sprite rather than each object having their own sprite data.
 
+##### Simple AI
+The AI in this game are not very  intelligent, they will move left or right depending on whether or not the player is left or right. Likewise they will move up and down depending on the player's position. They will open fire on the player when they have a clear line of sight. Unlike the player, they AI cannot shoot over cover.
+
 ##### Object Pooling
 The main objects that are pooled are the enemies, weapon's bullets. Due to the bullets being pooled along with the theme of the game, each character can only have 6 bullets active at a time. Bullets are refunded when hitting the edge of the map or an object such as a wall.
 
@@ -28,5 +31,8 @@ Alongside the game there is a simple map editor, where users can create and save
 The tile set file must be in the `tilesets` folder. You can then click to select the tile you want to paint on the right hand side of the editor, you can also hold control and left click to act as a dropper tool. Once finished hit save and the map will be written to the export folder.
 
 Custom maps can be loaded by placing the map's JSON file in `resources > levels`, and if it makes use of a custom tile map, place the custom tile map in `resources > tilemaps`. To load the custom map in game type their name at the level select screen and press the button.
+
+The first 8 tiles in the tileset you choose to use will be visual, the others will act as walls, stopping enemies and bullets.
+<br><br><br>
 ![Level Editor](.public/leveleditor.gif)
 ![Load Level](.public/loadingcustomlevel.gif)

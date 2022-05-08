@@ -4,8 +4,9 @@
 This is a repository for a simple game that I developed using C++ and the SFML library. It features a custom entity component system alongside AI and a separate level editor. Levels are stored using JSON and makes use of [nlohmann's JSON](https://github.com/nlohmann/json).
 
 The objective of the game is to survive as long as possible against growing waves of enemies. High scores are stored locally and persist through closing and opening the game.
+<p style="text-align:center;">
 ![Banner](.public/1bb.gif)
-
+</p>
 ### Controls
 WASD - Up, Left, Down, Right
 Arrow keys - Shoot Up, Left, Down, Right

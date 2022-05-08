@@ -7,6 +7,7 @@ The objective of the game is to survive as long as possible against growing wave
 <p style="text-align:center;">
 <img src=".public/1bb.gif">
 </p>
+
 ### Controls
 WASD - Up, Left, Down, Right
 Arrow keys - Shoot Up, Left, Down, Right

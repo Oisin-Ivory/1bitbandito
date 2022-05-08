@@ -5,7 +5,7 @@ This is a repository for a simple game that I developed using C++ and the SFML l
 
 The objective of the game is to survive as long as possible against growing waves of enemies. High scores are stored locally and persist through closing and opening the game.
 <p style="text-align:center;">
-![Banner](.public/1bb.gif)
+<img src=".public/1bb.gif">
 </p>
 ### Controls
 WASD - Up, Left, Down, Right
